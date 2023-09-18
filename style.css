@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(243, 222, 226);
+}
+
+h2,h3{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.boxes{
+    width: 44%;
+    height: 44%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.pink{
+    background-color: palevioletred;
+}
+.blue{
+    background-color: rgb(72, 151, 216);
+}
+.orange{
+    background-color: rgb(236, 173, 56);
+}
+.purple{
+    background-color: rgb(174, 86, 233);
+}
+
+@media(max-width:400px){
+    .container{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.flashClass{
+    background-color: aliceblue;
+}
+.flashUser{
+    background-color: rgb(175, 230, 179);
+}
